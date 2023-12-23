@@ -204,9 +204,9 @@
                 id: "start_stop",
                 onClick: this.timerControl
             }, React.createElement("i", {
-                className: "fa fa-play fa-2x"
+                className: "fa fa-play fa-2x  " 
             }), React.createElement("i", {
-                className: "fa fa-pause fa-2x"
+                className: "fa fa-pause fa-2x  "
             })), React.createElement("button", {
                 id: "reset",
                 onClick: this.reset
@@ -214,11 +214,11 @@
                 className: "fa fa-refresh fa-2x"
             }))), React.createElement("div", {
                 className: "author"
-            }, " ", "Designed and Coded by ", React.createElement("br", null), React.createElement("a", {
+            }, " ", " ", React.createElement("br", null), React.createElement("a", {
                 href: "https://www.freecodecamp.org/no-stack-dub-sack",
                 target: "_blank",
                 rel: "noreferrer"
-            }, "Peter Weinberg")), React.createElement("audio", {
+            }, "")), React.createElement("audio", {
                 id: "beep",
                 preload: "auto",
                 ref: e=>{

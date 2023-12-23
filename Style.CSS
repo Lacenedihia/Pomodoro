@@ -1,8 +1,11 @@
 body {
-    background: #1e555c;
-    color: white;
+    background: #a3ebf5;
+    color: rgb(249, 146, 62);
     font-size: 30px;
     text-align: center;
+    margin: auto;
+    display:inline-block;
+    margin-right:1em;
   }
   body #container {
     display: flex;
@@ -23,14 +26,22 @@ body {
     border: none;
     color: white;
     cursor: pointer;
+    padding: 10px ;
+  
+    display:inline-block;
+   margin-right:1em;
   }
   body #container .btn-level,
   body #container .length-control {
     display: inline-block;
+    display:inline-block;
+    margin-right:1em;
   }
   body #container .btn-level .btn-level:nth-child(3),
   body #container .length-control .btn-level:nth-child(3) {
-    width: 40px;
+    width: 50px;
+    display:inline-block;
+    margin-right:1em;
   }
   body #container .timer {
     border: 7px solid #13353a;
@@ -48,6 +59,8 @@ body {
     top: 50%;
     margin-left: -95px;
     margin-top: -57px;
+    display:inline-block;
+    margin-right:1em;
   }
   body #container .timer #time-left {
     font-family: digital;
@@ -78,4 +91,5 @@ body {
     color: #00264d;
     line-height: 26px;
   }
+  
   
